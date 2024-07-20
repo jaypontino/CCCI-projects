@@ -1,0 +1,8 @@
+/* assets/css/custom-antd.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.ant-btn {
+  @apply bg-primary text-white;/*A Tailwind CSS directive that allows you to apply utility classes within CSS.*/
+}
