@@ -1,0 +1,22 @@
+/* assets/css/custom-antd.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url('~/assets/bgicon.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #4a148c;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.ant-btn {
+  @apply bg-primary text-white;
+}
+
+/* Additional custom styles for your components */

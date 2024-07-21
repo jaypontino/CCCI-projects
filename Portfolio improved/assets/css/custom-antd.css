@@ -1,0 +1,89 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.ant-btn {
+  @apply bg-primary text-white;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: url('~/assets/bgicon.avif') no-repeat center center fixed;
+  background-size: cover;
+  color: #4a148c;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.resume-container {
+  background-color: rgba(242, 230, 245, 0.9); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #8a2be2;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+  color: #8a2be2;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 1.5em;
+}
+
+.contact-info, .about-me, section {
+  margin-bottom: 20px;
+}
+
+.contact-info h2, .about-me h2, section h2 {
+  font-size: 1.5em;
+  color: #8a2be2;
+  border-bottom: 2px solid #8a2be2;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.contact-info p, .about-me p, section ul li {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #5f17a1;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .resume-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

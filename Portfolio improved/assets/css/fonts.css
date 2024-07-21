@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Waltograph';
+    src: url('@/assets/fonts/waltograph.woff2') format('woff2'),
+         url('@/assets/fonts/waltograph.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
